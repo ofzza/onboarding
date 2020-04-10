@@ -1,0 +1,11 @@
+# Copy SSH keys from Windows on startup
+# -------------------------------------------------------
+
+rm ~/.ssh/*.key -f
+cp /mnt/e/.ssh/*.key ~/.ssh
+rm ~/.ssh/*.pub -f
+cp /mnt/e/.ssh/*.pub ~/.ssh
+#rm ~/.ssh/*.pem -f
+#cp /mnt/e/.ssh/*.pem ~/.ssh
+chmod 400 ~/.ssh/*
+chmod 777 ~/.ssh/known_hosts

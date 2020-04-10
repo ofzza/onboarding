@@ -1,0 +1,96 @@
+{
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace, 'Segoe UI Emoji'",
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "node_modules/": true,
+    "logs/": true,
+    "dist/": false
+  },
+  "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe",
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "explorer.openEditors.visible": 999,
+  "git.enableSmartCommit": true,
+  "sync.gist": "23da2eed1981e4c0154078e38580aab3",
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastUpload": "2018-07-08T17:16:18.394Z",
+  "sync.lastDownload": "",
+  "sync.forceDownload": false,
+  "terminal.integrated.fontSize": 13,
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Visual Studio Dark",
+  //"workbench.iconTheme": "material-icon-theme",
+  "explorer.autoReveal": false,
+  "window.smoothScrollingWorkaround": true,
+  "window.titleBarStyle": "native",
+  "breadcrumbs.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "terminal.integrated.rendererType": "experimentalWebgl",
+  "debug.node.showUseWslIsDeprecatedWarning": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.suggest.autoImports": false,
+  "javascript.suggest.autoImports": false,
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "#fff",
+      "backgroundColor": "#ffbd2a",
+      "overviewRulerColor": "rgba(255,189,42,0.8)",
+      "isWholeLine": false
+    },
+    {
+      "text": "!TODO",
+      "color": "#fff",
+      "backgroundColor": "#ffbd2a",
+      "overviewRulerColor": "rgba(255,189,42,0.8)",
+      "isWholeLine": true
+    },
+    {
+      "text": "FIXME:",
+      "color": "#fff",
+      "backgroundColor": "#f06292",
+      "overviewRulerColor": "rgba(255,189,42,0.8)",
+      "isWholeLine": false
+    },
+    {
+      "text": "!FIXME",
+      "color": "#fff",
+      "backgroundColor": "#f06292",
+      "overviewRulerColor": "rgba(255,189,42,0.8)",
+      "isWholeLine": true
+    },
+    {
+      "text": "DOCS:",
+      "color": "#fff",
+      "backgroundColor": "#2196f3",
+      "overviewRulerColor": "#ffeb3b",
+      "isWholeLine": false
+    },
+    {
+      "text": "!DOCS",
+      "color": "#fff",
+      "backgroundColor": "#2196f3",
+      "overviewRulerColor": "#ffeb3b",
+      "isWholeLine": true
+    }
+  ],
+  "todohighlight.defaultStyle": {
+    "isWholeLine": false
+  },
+  "remote.SSH.remotePlatform": {
+    "beta.zingword.com": "linux"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+}
